@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create LeetCode Problem Folder",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.vscode\\new_problem.bat",
+      "args": [
+        "${workspaceFolder}",
+        "${input:problemNumber}"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "problemNumber",
+      "type": "promptString",
+      "description": "Enter the problem number",
+      "default": "1234"
+    }
+  ]
+}
