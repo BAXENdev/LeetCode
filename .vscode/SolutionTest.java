@@ -1,10 +1,10 @@
 
-// package problem####.test // TODO
+package problem####.test;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-// import problem####.Solution; // TODO
+import problem####.Solution;
 
 public class SolutionTest {
     @Test
