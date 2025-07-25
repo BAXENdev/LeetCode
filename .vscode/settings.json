@@ -5,5 +5,9 @@
     "java.project.sourcePaths": [
         "",
         "test"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "problems.visibility": false,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "debug.console.collapseIdenticalLines": false
 }
