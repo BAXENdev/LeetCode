@@ -27,7 +27,7 @@ def main():
     with open(testFilePath, "r") as f:
         testFileContent = f.read()
     solutionFileContent = solutionFileContent.replace("####", problemNumber)
-    testFileContent = testFileContent.replace("####", problemNumber)
+    testFileContent =  testFileContent.replace("####", problemNumber)
 
     os.mkdir(problemFolderPath)
     os.mkdir(testFolderPath)
