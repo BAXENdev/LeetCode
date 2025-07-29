@@ -5,6 +5,10 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 // Fast enough but only beats 16%
+// This is over complicated.
+// Simplify use of objects.
+// Remove sorting of elements and dynamically skip parent node in DFS.
+// DFS can both calculate XOR and Descendants, reducing the DFS search by 1.
 public class Solution {
     public int minimumScore(int[] nums, int[][] edges) {
         // Old solution is (unsurprisingly) too slow
